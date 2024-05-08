@@ -8,6 +8,7 @@
 body {
   background: #222;
   color: #f2f2f2;
+  cursor: url(../img/cursor-arrow.png), pointer;
 }
 nav {
   ul {
@@ -32,5 +33,8 @@ a {
 
   &:link {
     color: var(--primary-color);
+  }
+  &:visited {
+    color: var(--secondary-color);
   }
 }
